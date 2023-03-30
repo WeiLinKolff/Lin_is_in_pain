@@ -123,15 +123,25 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bubbly', sans-serif;
 }
 
 nav li a:hover {
-    background-color: #111;
-    opacity: 20%;
+    color: #10002a;
+    opacity: 60%;
     border-radius: 12%;
+ 
 }
 
-
+#link {
+    color: white;
+}
+#link:hover {
+    color: #10002a;
+    opacity: 60%;
+    border-radius: 12%;
+}
 
 
 section .wat {
