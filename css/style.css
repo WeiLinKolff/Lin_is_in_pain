@@ -27,12 +27,14 @@ body {
     color: white;
     font-size: 30px;
     text-decoration: underline;
+
 }
 
 #slogan {
     font-size: 40px;
     color: white;
     text-align: left;
+    text-shadow: 5px 20px 50px #000000;
 }
 
 #air {
@@ -101,6 +103,12 @@ section .air.air4 {
     100% {
         background-position-x: -1000px;
     }
+}
+
+
+nav {
+	position: relative;
+	top: -2vh;
 }
 
 nav ul {
