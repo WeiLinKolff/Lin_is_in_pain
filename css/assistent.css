@@ -1,14 +1,30 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	width: 100%;
-	height: 100%;
-	background: #3586ff;
-	overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #3586ff;
+    overflow: hidden;	
+    overflow-x: hidden;
 
+    font-family: 'Bubbly', sans-serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+#wrapper
+{
+  border: 1px solid #888;
+  display: inline-block;
+  padding:20px;
+  
 }
 
 
@@ -18,97 +34,61 @@ nav {
 }
 
 nav ul {
-	display: flex;
-	justify-content: center;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 
 
 nav li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 30px;
-	font-family: 'Bubbly', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bubbly', sans-serif;
 }
 
 nav li a:hover {
-	color: #10002a;
-	opacity: 60%;
-	border-radius: 12%;
-
+    color: #10002a;
+    opacity: 60%;
+    border-radius: 12%;
+ 
 }
 
 #qform {
-	position: relative;
-	left: 40%;
-	width: 300px;
-	height: 500px;
-	top: 14vh;
-	background-color: aliceblue;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	border-radius: 15px;
-	box-shadow: 5px 20px 50px #000;
-}
-#con {
-	font-size: 3em;
-	font-family: 'Bubbly', sans-serif;
-}
-
-input {
-	width: 90%;
-	height: 20px;
-	background: #e0dede;
-	justify-content: center;
-	display: flex;
-	margin: 20px auto;
-	padding: 10px;
-	border: none;
-	outline: none;
-	border-radius: 5px;
-}
-
-button {
-	width: 60%;
-	height: 40px;
-	margin: 10px auto;
-	justify-content: center;
-	display: block;
-	color: #fff;
-	background: #0F172B;
-	font-size: 1em;
-	font-weight: bold;
-	margin-top: 20px;
-	outline: none;
-	border: none;
-	border-radius: 5px;
-	transition: .2s ease-in;
-	cursor: pointer;
-}
-
-button:hover {
-	background: #2664EC;
+    position: relative;
+    left: 40%;
+    width: 300px;
+    height: 500px;
+    top: 14vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 20px 50px #000;
 }
 
 
-#ber {
-	height: 50px;
+body {
+    background: #3586ff;
+	color: #333;
+	font: 100% Arial, Sans Serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 }
-
-
-
 
 #background-wrap {
-	bottom: 0;
+    bottom: 0;
 	left: 0;
 	padding-top: 50px;
 	position: fixed;
@@ -119,33 +99,30 @@ button:hover {
 
 
 @-webkit-keyframes animateCloud {
-	0% {
-		margin-left: -1000px;
-	}
-
-	100% {
-		margin-left: 100%;
-	}
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
 }
 
 @-moz-keyframes animateCloud {
-	0% {
-		margin-left: -1000px;
-	}
-
-	100% {
-		margin-left: 100%;
-	}
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
 }
 
 @keyframes animateCloud {
-	0% {
-		margin-left: -1000px;
-	}
-
-	100% {
-		margin-left: 100%;
-	}
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
 }
 
 /* wolkjes */
@@ -154,7 +131,7 @@ button:hover {
 	-webkit-animation: animateCloud 35s linear infinite;
 	-moz-animation: animateCloud 35s linear infinite;
 	animation: animateCloud 35s linear infinite;
-
+	
 	-webkit-transform: scale(0.65);
 	-moz-transform: scale(0.65);
 	transform: scale(0.65);
@@ -164,7 +141,7 @@ button:hover {
 	-webkit-animation: animateCloud 20s linear infinite;
 	-moz-animation: animateCloud 20s linear infinite;
 	animation: animateCloud 20s linear infinite;
-
+	
 	-webkit-transform: scale(0.3);
 	-moz-transform: scale(0.3);
 	transform: scale(0.3);
@@ -174,7 +151,7 @@ button:hover {
 	-webkit-animation: animateCloud 30s linear infinite;
 	-moz-animation: animateCloud 30s linear infinite;
 	animation: animateCloud 30s linear infinite;
-
+	
 	-webkit-transform: scale(0.5);
 	-moz-transform: scale(0.5);
 	transform: scale(0.5);
@@ -184,7 +161,7 @@ button:hover {
 	-webkit-animation: animateCloud 18s linear infinite;
 	-moz-animation: animateCloud 18s linear infinite;
 	animation: animateCloud 18s linear infinite;
-
+	
 	-webkit-transform: scale(0.4);
 	-moz-transform: scale(0.4);
 	transform: scale(0.4);
@@ -194,7 +171,7 @@ button:hover {
 	-webkit-animation: animateCloud 25s linear infinite;
 	-moz-animation: animateCloud 25s linear infinite;
 	animation: animateCloud 25s linear infinite;
-
+	
 	-webkit-transform: scale(0.55);
 	-moz-transform: scale(0.55);
 	transform: scale(0.55);
@@ -204,18 +181,18 @@ button:hover {
 
 .cloud {
 	background: #fff;
-	background: -moz-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #fff), color-stop(100%, #f1f1f1));
-	background: -webkit-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-	background: -o-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-	background: -ms-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-	background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#f1f1f1', GradientType=0);
-
+	background: -moz-linear-gradient(top,  #fff 5%, #f1f1f1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1));
+	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+	
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	border-radius: 100px;
-
+	
 	-webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
@@ -225,9 +202,8 @@ button:hover {
 	width: 350px;
 }
 
-.cloud:after,
-.cloud:before {
-	background: #fff;
+.cloud:after, .cloud:before {
+    background: #fff;
 	content: '';
 	position: absolute;
 	z-indeX: -1;
