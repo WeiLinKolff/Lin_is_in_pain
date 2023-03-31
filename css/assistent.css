@@ -16,15 +16,26 @@ body {
 	padding: 0;
 
 }
+#janee {
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+}
 
-
-
+img {
+    position: relative;
+    bottom: 10vh;
+}
 #wrapper
 {
   border: 1px solid #888;
   display: inline-block;
   padding:20px;
   
+}
+#vraag {
+    position: relative;
+    bottom: 8vh;
 }
 
 
@@ -41,8 +52,25 @@ nav ul {
     padding: 0;
     overflow: hidden;
 }
-
-
+#but a{
+    text-decoration: none;
+    color: white;
+    background: #325874;
+    padding: 7px 10px;
+    border-radius: 4px;  
+    font-size: 19px;
+}
+#but a:hover{
+    background: rgb(220 53 69 / 85%);
+}
+#but a:focus{
+    outline: 3px solid rgb(220 53 69 / 50%);
+}
+#but{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
 nav li a {
     display: block;
