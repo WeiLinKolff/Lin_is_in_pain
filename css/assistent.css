@@ -38,7 +38,11 @@ img {
     bottom: 8vh;
 }
 
-
+#logo {
+    position: absolute;
+    top: 0;
+    left: 1vw;
+}
 nav {
 	position: relative;
 	top: 12vh;

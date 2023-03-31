@@ -105,10 +105,15 @@ section .air.air4 {
     }
 }
 
+#logo {
+    position: absolute;
+    top: 0;
+    left: 1vw;
+}
 
 nav {
-	position: relative;
-	top: -2vh;
+    position: relative;
+    top: -2vh;
 }
 
 nav ul {
@@ -136,12 +141,15 @@ nav li a:hover {
     color: #10002a;
     opacity: 60%;
     border-radius: 12%;
- 
+    text-decoration: underline;
 }
+
+
 
 #link {
     color: white;
 }
+
 #link:hover {
     color: #10002a;
     opacity: 60%;

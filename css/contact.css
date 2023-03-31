@@ -64,6 +64,12 @@ nav li a:hover {
 	font-family: 'Bubbly', sans-serif;
 }
 
+#logo {
+    position: absolute;
+    top: 0;
+    left: 1vw;
+}
+
 input {
 	width: 90%;
 	height: 20px;
