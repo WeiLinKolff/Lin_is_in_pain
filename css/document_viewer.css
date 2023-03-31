@@ -58,7 +58,11 @@ nav li a:hover {
     border-radius: 15px;
     box-shadow: 5px 20px 50px #000;
 }
-
+#logo {
+    position: absolute;
+    top: 0;
+    left: 1vw;
+}
 
 body {
     background: #3586ff;
